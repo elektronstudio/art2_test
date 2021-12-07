@@ -6,11 +6,8 @@ const events = await getEvents();
 <template>
   <div>
     <div>
-      <router-link
-        style="display: block"
-        v-for="event in events"
-        :to="'/events/' + event.slug"
-        >{{ event.slug }}
+      <router-link v-for="event in events" :to="'/events/' + event.slug">
+        {{ event.slug }}
       </router-link>
     </div>
   </div>

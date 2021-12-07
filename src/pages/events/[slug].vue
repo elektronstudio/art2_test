@@ -22,4 +22,5 @@ const { site } = usePage();
     <title>{{ site.title }} | {{ event.title }}</title>
   </Head>
   <h1>{{ event.title }}</h1>
+  <pre>{{ event }}</pre>
 </template>

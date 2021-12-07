@@ -7,6 +7,7 @@ declare module 'vue' {
     Head: typeof import('@vueuse/head')['Head']
     Island: typeof import('iles')['Island']
     Test: typeof import('./src/components/Test.vue')['default']
+    Test2: typeof import('./src/components/Test2.vue')['default']
   }
 }
 

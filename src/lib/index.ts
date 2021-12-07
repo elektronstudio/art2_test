@@ -1,4 +1,5 @@
 import fetch from "cross-fetch";
+import { reactive } from "vue";
 
 export async function getEvents() {
   const data: any = await fetch("https://strapi.elektron.art/events").then(
@@ -13,3 +14,5 @@ export async function getFestivals() {
   );
   return data;
 }
+
+export const state = reactive({ a: 0, b: 0 });

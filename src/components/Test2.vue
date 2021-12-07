@@ -3,5 +3,5 @@ import { state } from "../lib";
 </script>
 
 <template>
-  a: <input type="range" v-model="state.a" /> b: {{ state.b }}
+  b: <input type="range" v-model="state.b" /> a: {{ state.a }}
 </template>

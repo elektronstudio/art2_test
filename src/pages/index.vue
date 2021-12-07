@@ -3,6 +3,9 @@
 <template>
   <div>
     <Test client:visible />
-    <router-link style="display: block" to="/events">Events</router-link>
+    <br />
+    <Test2 client:visible />
+    <router-link to="/events">Events</router-link>
+    <router-link to="/festivals">Festivals</router-link>
   </div>
 </template>
